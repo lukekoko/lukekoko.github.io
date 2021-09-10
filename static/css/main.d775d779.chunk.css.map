@@ -1,0 +1,1 @@
+{"version":3,"sources":["webpack://src/App.css"],"names":[],"mappings":"AAAA,eACI,aAAc,CACd,WAAY,CACZ,iBAAkB,CAClB,YAAa,CACb,iBAAkB,CAClB,mBACJ","file":"main.d775d779.chunk.css","sourcesContent":["section::before {\r\n    display: block;\r\n    content: \" \";\r\n    margin-top: -250px;\r\n    height: 285px;\r\n    visibility: hidden;\r\n    pointer-events: none;\r\n}\r\n\r\n"]}
