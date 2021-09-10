@@ -17,14 +17,14 @@ export default function Research() {
           </h2>
         </div>
         <div class="container">
-          <p class="is-size-5">
+          <p class="is-size-4">
             The project aim is to develop new techniques to detect and repair
             software security vulnerabilities for large and real-world software
             projects by leveraging deep learning and natural language
             processing.
           </p>
           <br />
-          <p class="is-size-5">
+          <p class="is-size-4">
             The project will be utilising SVF. Which is a source code analysis
             tool that performs static analysis on C and C++ source code. Static
             code analysis is examining source code before the program is run to
@@ -40,7 +40,7 @@ export default function Research() {
             is limited by the bug detection experience of the rule maker.
           </p>
           <br />
-          <p class="is-size-5">
+          <p class="is-size-4">
             <a
               href="https://github.com/SVF-tools/SVF"
               target="_blank"

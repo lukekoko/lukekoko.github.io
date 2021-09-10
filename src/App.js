@@ -6,6 +6,9 @@ import Professional from "./Components/Professional";
 import Research from "./Components/Research";
 import Hero from "./Components/Hero";
 import Contact from "./Components/Contact";
+import Capabilities from "./Components/Capabilities";
+import Leadership from "./Components/Leadership";
+import Goals from "./Components/Goals";
 
 function App() {
   return (
@@ -14,8 +17,11 @@ function App() {
       <Hero />
       <About />
       <Academic />
+      <Capabilities />
       <Professional />
       <Research />
+      <Leadership />
+      <Goals />
       <Contact />
       <Footer />
     </main>

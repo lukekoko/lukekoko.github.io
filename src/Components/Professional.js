@@ -4,17 +4,25 @@ export default function Professional() {
       <div class="container">
         <div class="section-heading">
           <h1 class="title is-2">Professional Experience</h1>
-          <h2 class="subtitle is-5"></h2>
         </div>
         <div class="content">
-          <p class="is-size-3">GTSGroup</p>
+          <div class="columns is-gapless">
+            <div class="column is-1">
+              <figure class="image is-64x64">
+                <img alt="" src={process.env.PUBLIC_URL + "gtsgroup.jpg"} />
+              </figure>
+            </div>
+            <div class="column">
+              <p class="is-size-3">GTSGroup</p>
+            </div>
+          </div>
           <p class="is-size-4">
-            <div class="columns is-gapless">
+            <div class="columns">
               <div class="column">Junior Support Engineer</div>
               <div class="column ">February 2020 - Current</div>
             </div>
           </p>
-          <ul class="is-size-5">
+          <ul class="is-size-4">
             <li>
               Performing OSIsoft PI System support for various clients; fixing
               system issues and performing system health checks.
@@ -29,14 +37,23 @@ export default function Professional() {
               for clients.
             </li>
           </ul>
-          <p class="is-size-3">Veolia Australia and New Zealand</p>
+          <div class="columns">
+            <div class="column is-1">
+              <figure class="image is-64x64">
+                <img alt="" src={process.env.PUBLIC_URL + "veolia.jpg"} />
+              </figure>
+            </div>
+            <div class="column">
+              <p class="is-size-3">Veolia Australia and New Zealand</p>
+            </div>
+          </div>
           <p class="is-size-4">
             <div class="columns is-gapless">
               <div class="column">Undergraduate Software Engineer</div>
               <div class="column ">January 2019 - January 2020</div>
             </div>
           </p>
-          <ul class="is-size-5">
+          <ul class="is-size-4">
             <li>
               Developed web scrapers in Python to get weather data and data from
               meters such as power meters and flow meters into PI System.

@@ -6,9 +6,6 @@ export default function Contact() {
           <h1 class="title is-2">Contact</h1>
           <h2 class="subtitle is-5">
             <p>
-              <strong>Phone:</strong> 0478 790 532
-            </p>
-            <p>
               <strong>Email:</strong> luke.d.kokoftopoulos@student.uts.edu.au
             </p>
             <p>

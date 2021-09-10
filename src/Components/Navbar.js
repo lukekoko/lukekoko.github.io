@@ -74,30 +74,58 @@ export default function Navbar() {
             </span>
             <span>Resume</span>
           </a>
-          <a class="navbar-item" href="#academic">
-            <span class="icon">
-              <i class="fas fa-graduation-cap"></i>
-            </span>
-            <span>Academic Experience</span>
-          </a>
-          <a class="navbar-item" href="#professional">
-            <span class="icon">
-              <i class="fas fa-briefcase"></i>
-            </span>
-            <span>Professional Experience</span>
-          </a>
-          <a class="navbar-item" href="#research">
-            <span class="icon">
-              <i class="fas fa-book"></i>
-            </span>
-            <span>Research</span>
-          </a>
-          {/* <a class="navbar-item" href="#leadership">
+
+          <div class="navbar-item has-dropdown is-hoverable">
+            <a class="navbar-link" href="#academic">
+              Academic
+            </a>
+            <div class="navbar-dropdown">
+              <a class="navbar-item" href="#academic">
+                <span class="icon">
+                  <i class="fas fa-graduation-cap"></i>
+                </span>
+                <span>Academic Experience</span>
+              </a>
+              <a class="navbar-item" href="#research">
+                <span class="icon">
+                  <i class="fas fa-book"></i>
+                </span>
+                <span>Research</span>
+              </a>
+            </div>
+          </div>
+
+          <div class="navbar-item has-dropdown is-hoverable">
+            <a class="navbar-link" href="#capabilities">
+              Professional
+            </a>
+            <div class="navbar-dropdown">
+              <a class="navbar-item" href="#capabilities">
+                <span class="icon">
+                  <i class="fas fa-tools"></i>
+                </span>
+                <span>Professional Capabilities</span>
+              </a>
+              <a class="navbar-item" href="#professional">
+                <span class="icon">
+                  <i class="fas fa-briefcase"></i>
+                </span>
+                <span>Professional Experience</span>
+              </a>
+            </div>
+          </div>
+          <a class="navbar-item" href="#leadership">
             <span class="icon">
               <i class="fas fa-user"></i>
             </span>
-            <span>Leadership, Service and Teamwork</span>
-          </a> */}
+            <span>Leadership</span>
+          </a>
+          <a class="navbar-item" href="#goals">
+            <span class="icon">
+              <i class="fas fa-bullseye"></i>
+            </span>
+            <span>Goals</span>
+          </a>
           <a class="navbar-item" href="#contact">
             <span class="icon">
               <i class="fas fa-address-book"></i>
